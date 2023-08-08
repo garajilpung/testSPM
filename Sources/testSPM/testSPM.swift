@@ -1,3 +1,6 @@
+import Foundation
+import JavaScriptCore
+
 public struct testSPM {
     public private(set) var text = "Hello, World!"
 
@@ -5,9 +8,13 @@ public struct testSPM {
     }
 }
 
-import Foundation
+
 
 @objc class calculate: NSObject {
+    
+    @objc override init() {
+        super.init()
+    }
     
     @objc func add(a:Int, b:Int) -> Int {
         return a + b
