@@ -8,10 +8,11 @@ public struct testSPM {
     }
 }
 
-@objc public class calculate: NSObject {
+@objcMembers public class calculate: NSObject {
     
     @objc override public init() {
         super.init()
+
     }
     
     @objc func add(a:Int, b:Int) -> Int {
