@@ -15,19 +15,19 @@ public struct testSPM {
 
     }
     
-    @objc func add(a:Int, b:Int) -> Int {
+    @objc public func add(a:Int, b:Int) -> Int {
         return a + b
     }
     
-    @objc func minus(a:Int, b:Int) -> Int {
+    @objc public func minus(a:Int, b:Int) -> Int {
         return a - b
     }
     
-    @objc func mul(a:Int, b: Int) -> Int {
+    @objc public func mul(a:Int, b: Int) -> Int {
         return a * b
     }
     
-    @objc func div(a:Int, b:Int) -> Int {
+    @objc public func div(a:Int, b:Int) -> Int {
         return a/b
     }
 }
