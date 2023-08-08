@@ -5,10 +5,11 @@ public struct testSPM {
     }
 }
 
+import Foundation
 
-public class calculate {
+public class calculate: NSObject {
     
-    func add(a:Int, b:Int) -> Int {
+    @objc func add(a:Int, b:Int) -> Int {
         return a + b
     }
     
