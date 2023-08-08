@@ -7,21 +7,21 @@ public struct testSPM {
 
 import Foundation
 
-public class calculate: NSObject {
+@objc class calculate: NSObject {
     
     @objc func add(a:Int, b:Int) -> Int {
         return a + b
     }
     
-    func minus(a:Int, b:Int) -> Int {
+    @objc func minus(a:Int, b:Int) -> Int {
         return a - b
     }
     
-    func mul(a:Int, b: Int) -> Int {
+    @objc func mul(a:Int, b: Int) -> Int {
         return a * b
     }
     
-    func div(a:Int, b:Int) -> Int {
+    @objc func div(a:Int, b:Int) -> Int {
         return a/b
     }
 }
