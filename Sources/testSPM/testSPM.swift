@@ -10,7 +10,7 @@ public struct testSPM {
 
 @objc public class calculate: NSObject {
     
-    @objc override init() {
+    @objc override public init() {
         super.init()
     }
     
